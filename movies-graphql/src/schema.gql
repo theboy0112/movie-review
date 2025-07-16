@@ -1,0 +1,36 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Check {
+  studentId: Int!
+  userName: String!
+  userPassword: String!
+}
+
+input CreateCheckInput {
+  userName: String!
+  userPassword: String!
+}
+
+input LoginCheckInput {
+  userName: String!
+  userPassword: String!
+}
+
+type Mutation {
+  createCheck(createCheckInput: CreateCheckInput!): Check!
+  login(loginCheckInput: LoginCheckInput!): Boolean!
+  removeCheck(id: Int!): Check!
+  updateCheck(updateCheckInput: UpdateCheckInput!): Check!
+}
+
+type Query {
+  check(id: Int!): Check!
+}
+
+input UpdateCheckInput {
+  studentId: Int!
+  userName: String!
+  userPassword: String!
+}
