@@ -23,8 +23,6 @@ export class CheckService {
     },
   });
 }
-
-
   findAll() {
     return `This action returns all check`;
   }

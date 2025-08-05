@@ -20,17 +20,14 @@ async login(
   const user = await this.checkService.findUser(userName, userPassword);
   return !!user;
 }
-
   @Query(() => [Check], { name: 'check' })
   findAll() {
     return this.checkService.findAll();
   }
-
   @Query(() => Check, { name: 'check' })
   findOne(@Args('id', { type: () => Int }) id: number) {
     return this.checkService.findOne(id);
   }
-
   @Mutation(() => Check)
   updateCheck(@Args('updateCheckInput') updateCheckInput: UpdateCheckInput) {
     return this.checkService.update(
@@ -38,7 +35,6 @@ async login(
       updateCheckInput,
     );
   }
-
   @Mutation(() => Check)
   removeCheck(@Args('id', { type: () => Int }) id: number) {
     return this.checkService.remove(id);

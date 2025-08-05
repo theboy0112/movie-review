@@ -55,7 +55,7 @@ function Movie() {
               teamed up on the big screen. It brings together Iron Man, Captain
               America, Thor, Hulk, Black Widow, and Hawkeye to form the Avengers
               Initiative. Their mission? To stop Loki, Thor's adopted brother,
-              from using the Tesseract (a powerful energy cube) to open a portal
+              from using the Tesseract a powerful energy cube to open a portal
               and unleash an alien invasion on Earth. At the time, this was a
               historic crossover in cinema and it delivered.
             </div>
@@ -66,7 +66,7 @@ function Movie() {
           <div className="overlay">
             <div className="text">
               Avengers: Infinity War is the beginning of the epic conclusion to
-              the Marvel Cinematic Universe's (MCU) first grand storyline. It
+              the Marvel Cinematic Universe's MCU first grand storyline. It
               brings together nearly every hero introduced over the past decade
               as they unite to stop Thanos, a powerful cosmic warlord, from
               collecting all six Infinity Stones artifacts that give him the
@@ -85,10 +85,10 @@ function Movie() {
               Marvel Cinematic Universe and a direct sequel to Thor: Ragnarok.
               Once again directed by Taika Waititi, the film continues Thor’s
               journey post-Avengers: Endgame. He’s on a quest for inner peace
-              but is pulled back into action when Gorr the God Butcher (played
-              by Christian Bale) begins eliminating gods across the universe.
+              but is pulled back into action when Gorr the God Butcher played
+              by Christian Bale begins eliminating gods across the universe.
               Thor must team up with Valkyrie, Korg, and a newly empowered
-              Mighty Thor aka Jane Foster (Natalie Portman) to stop Gorr and
+              Mighty Thor aka Jane Foster Natalie Portman to stop Gorr and
               save the cosmos.
             </div>
           </div>

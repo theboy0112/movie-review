@@ -3,7 +3,6 @@ import { GraphQLModule } from '@nestjs/graphql';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 import { join } from 'path';
 import { ApolloServerPluginLandingPageLocalDefault } from '@apollo/server/plugin/landingPage/default';
-
 import { PrismaModule } from './prisma/prisma.module';
 import { CheckResolver } from './check/check.resolver';
 import { CheckService } from './check/check.service';

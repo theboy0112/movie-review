@@ -26,7 +26,7 @@ function Signup() {
   });
 
   const validatePassword = (password) => {
-    const regex = /^(?=.*[a-zA-Z])(?=.*\d)[a-zA-Z\d]{8}$/;
+    const regex = /^\d{8}$/;
     return regex.test(password);
   };
 
@@ -34,7 +34,7 @@ function Signup() {
     e.preventDefault();
 
     if (!validatePassword(userPassword)) {
-      setMessage("❌ Password must be at least 8 characters and number");
+      setMessage("❌ Password must be at least 8 digits.");
       return;
     }
 

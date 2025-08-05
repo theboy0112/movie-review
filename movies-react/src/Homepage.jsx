@@ -4,7 +4,7 @@ import "./CSS/App.css";
 import wfmt from "./assets/wfmt.png";
 import { useState,useEffect } from "react";
 function Homepage() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   
     const toggleDarkMode = () => {
       setDarkMode(!darkMode);

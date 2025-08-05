@@ -12,7 +12,7 @@ function About() {
       </ul>
       <div>
         <h1>About Us</h1>
-        <h2>Welcome to ReelTalks – Where Film Meets Thought</h2>
+        <h2>Welcome to ReelTalks Where Film Meets Thought</h2>
         <h3>
           At ReelTalks, we believe that movies are more than just entertainment
           they’re powerful reflections of culture, emotion, and imagination.
@@ -22,15 +22,15 @@ function About() {
         </h3>
         <h1>What We Do</h1>
         <li>
-          Curated Movie Recommendations – Personalized suggestions for every
+          Curated Movie Recommendations Personalized suggestions for every
           mood, genre, or occasion.
         </li>
         <li>
-          Honest and Insightful Reviews – Thoughtful takes on the latest
+          Honest and Insightful Reviews Thoughtful takes on the latest
           releases and timeless classics.
         </li>
         <li>
-          Engaging Film Discussions – Dive deeper into the themes, characters,
+          Engaging Film Discussions Dive deeper into the themes, characters,
           and messages that make movies matter.
         </li>
       </div>
