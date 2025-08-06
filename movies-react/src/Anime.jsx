@@ -114,7 +114,7 @@ function Anime() {
           <img src={sd} />
           <div className="overlay">
             <div className="text">
-              Taro Sakamoto, once a legendary hitman feared by all, leaves the
+              6Taro Sakamoto, once a legendary hitman feared by all, leaves the
               underworld to live a quiet life as a humble convenience store
               owner with his family. But when enemies from his past return, the
               retired assassin must protect his peaceful life—without killing. A
@@ -152,7 +152,7 @@ function Anime() {
               ends up living with members of the mysterious Soma family after
               losing her mother. She soon discovers that the Somas are cursed
               twelve of them transform into animals of the Chinese zodiac when
-              hugged by someone of the opposite gender or when they’re under
+              hugged by someone of the opposite gender or when theyre under
               emotional stress. As Tohru becomes closer to the family,
               especially Yuki, Kyo, and Shigure, she learns about the pain and
               trauma each member carries due to the curse. Through her
